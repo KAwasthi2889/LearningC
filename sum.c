@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //This program will add any 3 numbers.
     int num1,num2,sum;
     printf("Write any 2 numbers\n");
     scanf("%d%d",&num1,&num2);

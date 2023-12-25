@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //This is a program to find the type of triangle if we know its angle.
     int ang1,ang2,ang3,sum;
     printf("Write any 3 angles (in degrees):\n");
     scanf("%d%d%d",&ang1,&ang2,&ang3);

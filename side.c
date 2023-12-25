@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //This program will tell the type of triangle if by the given sides.
     int s1,s2,s3;
     printf("Write any 3 sides of triangle:\n");
     scanf("%d%d%d",&s1,&s2,&s3);

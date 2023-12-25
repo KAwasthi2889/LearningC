@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //This is a program which will tell if the sum of 2 numbers is greater than 100 or not.
     int num1,num2,sum;
     printf("Write any 2 numbers\n");
     scanf("%d%d",&num1,&num2);
