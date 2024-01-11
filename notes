@@ -1,0 +1,26 @@
+scanf only stores one charecter till space.
+fgets stores a line of input in a single variable.
+fgets(<variable>, <num>, stdin) specifies fgets the number of charecters it can store at maximum.
+    
+char <variable> is charecter data type and can only store 1 charecter within ''.
+Its sign is %c.
+
+char <variable>[] is string data type and can store many charecters wirhin "".
+char <variable>[<num>] specifies the number of charecters in the string if it is not initialised.
+Its sign is %s. For string, scanf dosen't need &.
+
+Decimal numbers can be obtained using float and double data type.
+But the input numbers must also have decimal.
+Their sign is %f for printf and %f in scanf for float and %lf for double.
+
+int <variable>[] = {1, 2, 3, 4} is an int array with 4 elements.
+Here 1 has index 0, 2 has index 1 and so on.
+So <variable>[3] will call the 4th element of that array.
+
+pow(a, b) gives a^b.
+sqrt(a) gives square root of a.
+ceil(35.34) gives 36 as it rounds off the decimal number higher.
+floor(35.34) give 35 as it rounds off the decimal number lower.
+
+const before a variable prevents it from changing value.
+const int NUM = 8; sets NUM to always be 8.
