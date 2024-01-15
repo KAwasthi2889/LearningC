@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int fibbonachi()
 {
     int a, b=0, c=1, d;
     printf("How many numbers do you want of fibbonachi series?\n");
@@ -14,5 +14,9 @@ int main()
         c=d;
     }   
     printf("\n");
+}
+int main()
+{
+    fibbonachi();
     return 0;
 }

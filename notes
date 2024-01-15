@@ -7,7 +7,7 @@ Its sign is %c.
 
 char <variable>[] is string data type and can store many charecters wirhin "".
 char <variable>[<num>] specifies the number of charecters in the string if it is not initialised.
-Its sign is %s. For string, scanf dosen't need &.
+Its sign is %s. For string, scanf dosen't need & and printf dosen't need [].
 
 Decimal numbers can be obtained using float and double data type.
 But the input numbers must also have decimal.
