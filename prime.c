@@ -3,11 +3,11 @@
 int main() 
 {
     int num;
-    printf("Enter any number: ");
+    printf("Enter any natural number: ");
     scanf("%d", &num);
     if (num <= 0) 
     {
-        printf("Please enter a positive number\n");
+        printf("Please enter a natural number\n");
     }
     if (num == 1) 
     {
