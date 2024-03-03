@@ -22,8 +22,8 @@ int main()
 
     for (int i = 0; i < 3; i++)
     {
-        printf("%s ", students[i].name);
-        printf("%d\n", students[i].age);
+        printf("%s\n", students[i].name);
+        printf("%d\n\n", students[i].age);
     }
 
     return 0;
