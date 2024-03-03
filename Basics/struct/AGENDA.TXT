@@ -1,18 +1,3 @@
-### Beginner Level:
-
-1. **Basic Struct Declaration:**
-   - Declare a struct named `Student` with member variables `name` (string) and `age` (integer).
-
-2. **Struct Initialization:**
-   - Initialize a `Student` struct variable named `student1` with name "John" and age 20.
-
-3. **Accessing Struct Members:**
-   - Print the name and age of `student1`.
-
-4. **Function with Struct:**
-   - Write a function `printStudent` that takes a `Student` struct as an argument and prints its 
-     details.
-
 ### Intermediate Level:
 
 5. **Array of Structs:**
