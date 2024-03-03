@@ -1,0 +1,56 @@
+### Beginner Level:
+
+1. **Basic Struct Declaration:**
+   - Declare a struct named `Student` with member variables `name` (string) and `age` (integer).
+
+2. **Struct Initialization:**
+   - Initialize a `Student` struct variable named `student1` with name "John" and age 20.
+
+3. **Accessing Struct Members:**
+   - Print the name and age of `student1`.
+
+4. **Function with Struct:**
+   - Write a function `printStudent` that takes a `Student` struct as an argument and prints its 
+     details.
+
+### Intermediate Level:
+
+5. **Array of Structs:**
+   - Declare an array of 5 `Student` structs and initialize them with random names and ages.
+
+6. **Updating Struct Members:**
+   - Update the age of `student1` to 22.
+
+7. **Passing Struct to Function:**
+   - Write a function `modifyStudent` that takes a `Student` struct pointer as an argument and 
+     increments the age by 1.
+
+### Advanced Level:
+
+8. **Dynamic Memory Allocation:**
+   - Define a function `createStudent` that dynamically allocates memory for a `Student` struct, initializes its members,
+     and returns a pointer to the struct.
+
+9. **Linked List of Structs:**
+   - Implement a singly linked list where each node contains a `Student` struct.
+
+10. **Nested Structs:**
+    - Define a nested struct `Course` containing information like course name and credits, and then a struct `Student` 
+      containing information like name, age, and a `Course` struct for the student's current course.
+
+### Expert Level:
+
+11. **Structs with Functions:**
+    - Implement a function `compareStudents` that takes two `Student` structs and returns 1 if the first student is older, 
+      -1 if the second student is older, and 0 if they are of the same age.
+
+12. **File Handling with Structs:**
+    - Write functions to read and write `Student` structs to a file, allowing for data persistence.
+
+13. **Dynamic Array of Structs:**
+    - Create a resizable array of `Student` structs using dynamic memory allocation, allowing for efficient addition and 
+      removal of students.
+
+14. **Advanced Data Structures with Structs:**
+    - Implement more complex data structures like trees or graphs using structs to represent nodes or vertices, along with 
+      associated data.
