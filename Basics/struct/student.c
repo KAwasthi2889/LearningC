@@ -18,6 +18,7 @@ int main()
     student1.age = 21;
     strcpy(student1.name, "abc");
 
+// Added an array to get indexation of i
     struct Student students[] = {student1, student2, student3};
 
     for (int i = 0; i < 3; i++)
