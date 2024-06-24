@@ -1,39 +1,42 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct Node;
+struct Node* head;
+
+void create(int data); 
+void print(); 
+
+int main(void) 
+{
+    create(5);
+    create(10);
+    create(15);
+    create(20);
+    print();
+}
+
 struct Node {
     int data;
     struct Node* next;
 };
-struct Node* Node1(int data) {
+
+void create(int data) 
+{
     struct Node* newNode = malloc(sizeof(struct Node));
-    newNode->data = data;
-    newNode->next = NULL;
-    return newNode;
-}
-void insertAtBeginning(struct Node** head, int data) {
-    struct Node* newNode = Node1(data);
-    newNode->next = *head;
-    *head = newNode;
-}
-void printLinkedList(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d -> ", current->data);
-        current = current->next;
-    }
-    printf("NULL\n");
+    newNode -> data = data;
+    newNode -> next = head;
+    head = newNode;
 }
 
-int main() {
-    struct Node* head = NULL;
-    insertAtBeginning(&head, 5);
-    insertAtBeginning(&head, 10);
-    insertAtBeginning(&head, 15);
-    insertAtBeginning(&head, 20);
-
+void print() 
+{
     printf("Linked List: ");
-    printLinkedList(head);
-
-    return 0;
+    struct Node* current = head;
+    while (current -> next != NULL) 
+    {
+        printf("%d => ", current -> data);
+        current = current -> next;
+    }
+    printf("%d => END\n", current -> data);
 }
