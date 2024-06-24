@@ -1,3 +1,4 @@
+// C dosent have bool return type.
 // 1 and 0 are used to define true or false as c dosent cant return true or false.
 // any non zero number is taken as true.
 #include <stdio.h>
