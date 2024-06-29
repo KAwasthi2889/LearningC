@@ -18,4 +18,5 @@ void main(void)
     char *s4 = &s3[0]; // again pointing to H
     s3[2] = 'A';
     printf("String: %s\n", s4);
+    printf("String: %c\n", *s4); // But %c do requires derefrencing
 }
